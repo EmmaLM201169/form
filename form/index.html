@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form name="signup" action="#" method="post">
+        <h1>Registration</h1>
+        <div class="input-box">
+          <label for="email"></label>
+          <input type="text" placeholder="E-mail" required />
+
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <label for="password"></label>
+          <input type="password" placeholder="Password" required />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <label for="password"></label>
+          <input type="password" placeholder="Repeat password" required />
+        </div>
+        <div class="check-age">
+          <label for="age"
+            ><input type="checkbox" name="age" required /> I become eighteen
+            years old
+          </label>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Sign up" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
